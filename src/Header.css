@@ -1,0 +1,40 @@
+/*  src/Header.css  */
+.Header {
+    padding: 1em;
+    background-color: rgb(26, 84, 192);
+    color: #fff;
+}
+
+.Header h1{
+    display: inline-block;
+    margin-left: 15%;
+}
+
+.Header .container-left{
+    float: right;
+    margin-top: 1vw;
+    margin-right: 15vw;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Header .container-left .Login{
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.Header .container-left .Trial{
+    background-color: black;
+    padding: 10px;
+}
+
+.SubHeader{
+    background-color: rgb(63, 62, 62);
+    color: white;
+    padding: 0.5em;
+}
+
+.SubHeader h1{
+    margin-left: 15%;
+}

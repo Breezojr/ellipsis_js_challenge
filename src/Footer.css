@@ -1,0 +1,33 @@
+.Footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-left: 20vw;
+}
+
+.Footer .nav ul{
+}
+
+.Footer .nav ul li{
+   text-decoration: none;
+   display: inline;
+   padding: 1em;
+   font-size: 30px;
+}
+
+.Footer .nav ul  span{
+    display: inline-block;
+    margin-left:30px;
+ }
+
+ .Footer .Copyright{
+    margin-left: 2.5vw;
+ }
+
+ .Footer .Copyright h1{
+    font-size: 20px;
+    font-weight: 400;
+ }
+

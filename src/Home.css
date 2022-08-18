@@ -1,0 +1,46 @@
+.Home{
+    width: 100%;
+    min-height: 1300px;
+    position: relative;
+}
+
+.Home .main-body{
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+
+.Series{
+    display: inline-block;
+    margin-right: 1vw;
+    width: 10%;   
+}
+
+.Movies{
+    display: inline-block;
+    margin-right: 1vw;
+    width: 10%;
+}
+
+.Placeholder{
+    background-color: black;
+    margin-right: 1vw;
+}
+
+.image-placeholder{
+    padding-top: 3vw;
+    margin-left: -20px;
+}
+
+.Placeholder h1{
+ color: white;
+ font-weight: 400;
+ display: inline-block;
+ position: relative;
+ top: -120px;
+ left: 50px;
+}
+
+   
+
+
