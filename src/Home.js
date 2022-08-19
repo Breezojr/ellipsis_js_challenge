@@ -1,29 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 import placeholder from './assets/placeholder.png';
 import { Link } from "react-router-dom";
 import './Home.css'
 
-function Home() {
+function Home(props) {
+  
+
     return (
-            <div className="main-body">
-                <div className='Series'>
+        <div className="main-body">
+            <div className="column-container">
+                <div className='column-body'>
                     <div className='Placeholder'>
                         <img src={placeholder} className="image-placeholder" alt="placeholder" />
-                        <h1> <Link to="/series" className="link">SERIES</Link></h1>
-                        
+                        <h1  onClick={() => props.newFunc("series")}> <Link to="/series" className="link">SERIES</Link></h1>
                     </div>
                     <h2>Popular Series</h2>
                 </div>
-                <div className='Movies'>
+                <div className='column-body'>
                     <div className='Placeholder'>
                         <img src={placeholder} className="image-placeholder" alt="placeholder" />
-                        <h1><Link to="/movies" className="link">MOVIES</Link></h1>
-                    </div>                        
+                        <h1 onClick={() => props.newFunc("movie")}><Link to="/movies" className="link">MOVIES</Link></h1>
+                    </div>
                     <h2>Popular Movies</h2>
                 </div>
-
             </div>
-            
+
+        </div>
     )
 }
 

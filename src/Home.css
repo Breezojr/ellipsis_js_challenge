@@ -1,48 +1,52 @@
-
-.main-body{
-    margin-left: 8%;
+.main-body {
+    width: 100%;
     margin-top: 2%;
+    position: relative;
+    min-height: 37vw;
 }
 
-.Series{
+.main-body .column-container {
+    width: 90%;
+    margin-left: 10%;
+}
+
+.main-body .column-container .column-body {
+    position: relative;
     display: inline-block;
-    margin-right: 1vw;
-    width: 10%;   
+    width: 15%;
+    margin-right: 2vw;
 }
 
-.link{
+.main-body .column-container .column-body .Placeholder {
+    align-items: center;
+    position: relative;
+    background-color: black;
+    height: 15vw;
+}
+
+.main-body .column-container .column-body .Placeholder .image-placeholder {
+    margin-top: 3vw;
+    width: 100%;
+    position: relative;
+}
+
+.main-body .column-container .column-body .Placeholder h1 {
+    font-size: 2vw;
+    position: absolute;
+    margin-top: -5vw;
+    margin-left: 25%;
+}
+
+.main-body .column-container .column-body h2{
+    color: black;
+    font-size: 1.5vw;
+}
+
+.link {
     color: white;
     text-decoration: none;
 }
 
-.link:hover{
+.link:hover {
     color: rgb(158, 158, 167);
 }
-.Movies{
-    display: inline-block;
-    margin-right: 1vw;
-    width: 10%;
-}
-
-.Placeholder{
-    background-color: black;
-    margin-right: 1vw;
-}
-
-.image-placeholder{
-    padding-top: 3vw;
-    margin-left: -20px;
-}
-
-.Placeholder h1{
- color: white;
- font-weight: 400;
- display: inline-block;
- position: relative;
- top: -120px;
- left: 50px;
-}
-
-   
-
-
