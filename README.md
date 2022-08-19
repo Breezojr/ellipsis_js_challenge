@@ -1,2 +1,2 @@
 # ellipsis_js_challenge
-This is a project as a respond to the challenge that I have been given by Ellipsis.
+This is the react project for current movies and series
