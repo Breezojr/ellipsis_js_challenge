@@ -1,0 +1,36 @@
+.movie-body{
+    width: 100%;
+}
+
+.movie-body .movie-body-inner{
+    width: 90%;
+    padding-left: 7vw;
+}
+
+.movie-body .movie-column{
+    background-color: aliceblue;
+    width: 15%;    
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    margin-left: 0.8vw;
+    margin-top: 3vw;
+}
+
+.movie-body .movie-column .movie-image-container{
+    width: 100%;
+    height: 20px;
+}
+
+.movie-body .movie-column .movie-image-container .image{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+}
+
+.movie-body .movie-column .movie-title{
+ position: absolute;
+ bottom: 2px;
+}
+

@@ -1,33 +1,78 @@
-.Footer{
+.Footer {
     position: absolute;
-    bottom: 0;
-    width: 100%;
+    bottom: -15vw;
+    width: 90%;
     background-color: black;
     color: white;
-    padding-left: 20vw;
+    padding-left: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 2vw;
 }
 
-.Footer .nav ul{
+.Footer .nav ul li {
+    text-decoration: none;
+    display: inline;
+    padding: 1em;
+    font-size: 25px;
 }
 
-.Footer .nav ul li{
-   text-decoration: none;
-   display: inline;
-   padding: 1em;
-   font-size: 30px;
-}
-
-.Footer .nav ul  span{
+.Footer .nav ul span {
     display: inline-block;
-    margin-left:30px;
- }
+    margin-left: 30px;
+}
 
- .Footer .Copyright{
+.Footer .Copyright {
     margin-left: 2.5vw;
- }
+}
 
- .Footer .Copyright h1{
+.Footer .Copyright h1 {
     font-size: 20px;
     font-weight: 400;
- }
+}
 
+.Footer .icons {
+    margin-top: 2vw;
+    padding-left: 2.5vw;
+}
+
+
+.Footer .icons .image-container {
+    width: 15px;
+    max-height: 50px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.Footer .icons .big {
+    width: 20px;
+    margin-right: 180px;
+}
+
+.Footer .icons .image-container .image-placeholder {
+    position: relative;
+    width: 100%;
+    margin-top: -3vw;
+    margin-left: 0.2vw;
+}
+
+
+.Footer .icons .image-container .large {
+    position: relative;
+    width: 150%;
+}
+
+.Footer .icons .image-container .larger {
+    height: 50px;
+    position: relative;
+    width: 900%;
+}
+
+.Footer .icons .icons-left {
+    display: inline-block;
+}
+
+.Footer .icons .icons-right {
+    float: right;
+    position: relative;
+    right: 200px;
+}

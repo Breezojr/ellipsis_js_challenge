@@ -1,14 +1,8 @@
-.Home{
-    width: 100%;
-    min-height: 1300px;
-    position: relative;
-}
 
-.Home .main-body{
+.main-body{
     margin-left: 8%;
     margin-top: 2%;
 }
-
 
 .Series{
     display: inline-block;
@@ -16,6 +10,14 @@
     width: 10%;   
 }
 
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: rgb(158, 158, 167);
+}
 .Movies{
     display: inline-block;
     margin-right: 1vw;
