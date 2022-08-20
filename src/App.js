@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import Series from './Series';
 import Home from './Home';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './app.css'
 import Movies from './Movies';
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import placeholder from './assets/placeholder.png';
 import { Link } from "react-router-dom";
-import './Home.css'
+import './home.css'
 
 function Home(props) {
     return (

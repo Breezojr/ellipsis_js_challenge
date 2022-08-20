@@ -1,6 +1,6 @@
-import './Header.css';
+import './header.css';
 import { Link } from "react-router-dom";
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 function Header(props) {
     return (
