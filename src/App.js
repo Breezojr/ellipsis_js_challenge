@@ -30,8 +30,8 @@ function Child() {
                 <Header title={title}  changeTitle1={changeTitle1} />
                 <Routes>
                     <Route exact path='/' element={< Home newFunc={changeTitle} />}></Route>
-                    <Route exact path='/movies' element={< Movies />}></Route>
-                    <Route exact path='/series' element={< Series />}></Route>
+                    <Route exact path='/movies' element={< Movies title={title} />}></Route>
+                    <Route exact path='/series' element={< Movies title={title} />}></Route>
                 </Routes>
                 <Footer />
             </Router>
