@@ -6,6 +6,7 @@
 }
 
 .header .main-header {
+    padding-top: 0.5vw;
     width: 100%;
     background-color: rgb(26, 84, 192);
  }
@@ -15,17 +16,18 @@
    margin-left: 10%;
    display: inline-block;
 }
-
+ 
 .header .main-header .header-container h1{
     display: inline-block;
     font-size: 1.8vw;
+    font-family: sans-serif
 }
 
 .header .container-right{
     position: relative;
     top: 1.5vw;
     float: right;
-    margin-right: 15vw;
+    margin-top: -0.5vw;
     text-align: center;
     font-size: 1.4vw;
     color: white;
@@ -34,15 +36,23 @@
 .header .container-right .Login{
     color: white;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 4vw;
     text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1vw;
+
 }
 
 .header .container-right .Trial{
-    background-color: rgba(0, 0, 0, 0.856);
-    padding: 10px;
+    background-color: rgb(36, 35, 35);
     text-decoration: none;
     color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    font-family: sans-serif;
+    font-size: 1vw;
 }
 
 .SubHeader{
