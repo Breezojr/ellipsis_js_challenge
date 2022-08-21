@@ -9,8 +9,8 @@ function Header(props) {
                 <div className="header-container">
                     <h1 onClick={() => props.changeTitle1()}><Link to="/" className="link">DEMO Streaming</Link></h1>
                     <div className="container-right">
-                        <a href='' className="Login">Log in</a>
-                        <a href="" className="Trial">Start your free trial</a>
+                        <a  className="Login">Log in</a>
+                        <a  onClick={() => props.oops()} className="Trial"><Link to="/oops" className="link">Start your free trial</Link></a>
                     </div>
                 </div>
             </div>
